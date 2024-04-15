@@ -1,0 +1,23 @@
+<html>
+    <header>
+        <title>
+            Object-Finder-Web-App
+        </title>
+    </header>
+    <script src= https://unpkg.com/ml5@latest/dist/ml5.min.js></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <body background="Background image.jpeg">
+        <center>
+            <h1 class="btn btn-warning">Object Detection. Bring a object near the camera and show it. 
+              The model will recognise it and give the object name highlighted.
+            </h1>
+            <br>
+            <h3 id="status_model" class="btn btn-danger"></h3>
+            <h3 id="status_objects" class="btn btn-warning"></h3>
+            
+            <button onclick="Start();" class="btn btn-danger" id="start_model">Start</button>
+        
+          </center>
+    </body>
+    <script src="main.js"></script>
+</html>
